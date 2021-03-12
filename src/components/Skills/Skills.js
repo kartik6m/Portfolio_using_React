@@ -6,9 +6,9 @@ import './skills.css';
 
 export const Skills = ({ skills }) => {
     return (
-        <div className="skills-container">
-            <h3>Industry Knowledge</h3>
-            <div className="industry-skill-container">
+        <div className="skills-container custom-color">
+            <h3 >Industry Knowledge</h3>
+            <div className="industry-skill-container ">
                 {
                     skills.industryKnowledge.map(skill => <SkillCard skill={skill} />)
                 }

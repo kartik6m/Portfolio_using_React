@@ -1,14 +1,14 @@
 import React from 'react';
 
 import './sidenav.css';
-
+import dp from './dp.png'
 export const SideNav = ({ handleSectionClick }) => {
     return (
         <div className="sidenav">
             <img
-                src="https://avatars2.githubusercontent.com/u/26179770?s=400&u=c192e93f9e95569393dc3ba8875e3214940ff01e&v=4"
-                className="avatar"
-                alt="avatar"
+                src={dp}
+                
+              className="avatar"  
             />
             <h2 className="main-name">Kartik Mehetre</h2>
             <p className="subtitle">"I know something of many things"</p>

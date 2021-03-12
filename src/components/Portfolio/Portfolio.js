@@ -15,7 +15,7 @@ export const Portfolio = ({
     projects }) => {
     return (
         <div className="portfolio-container">
-            <div className="sidenav-container">
+            <div className="sidenav-container ">
                 <SideNav
                     handleSectionClick={handleSectionClick}
                 />

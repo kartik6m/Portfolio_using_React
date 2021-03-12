@@ -15,6 +15,11 @@ export const projects = {
             description: "We built a simple website using Python and Django framework.\nThis website featured information regarding the courses, list of colleges,entrance exam details etc.We used SQlite as the database and HTML,CSS and Javascript for front-end development.",
             link: "https://github.com/kartik6m/django_course_project/"
         }, 
+        {
+            name:"Blockchain API for E-voting system",
+            description:"Created API for a decentralised and persistent blockchain prototype in JavaScript using Node.js, MongoDB Used this API in a basic e-voting application for demonstration purpose.",
+            link: "https://github.com/kartik6m/codathon-blockchainAPI"
+        }
             
     ]
 }
